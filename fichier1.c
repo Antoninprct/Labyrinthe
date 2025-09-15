@@ -9,11 +9,11 @@ struct Node {
 int main(void) {
     printf("Hello, World!\n");
     return 0;
-}
-
-struct Node node_create(int data) {
+}te(int data) {
     struct Node* node = malloc(sizeof(struct Node));
     node->data=data;
     node->left=NULL;
     node->right=NULL;
 }
+
+struct Node node_crea
